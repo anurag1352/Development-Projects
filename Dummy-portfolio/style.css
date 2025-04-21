@@ -619,3 +619,48 @@ a{
     padding: 0 1rem;
     font-size: 1.5rem;
 }
+
+/* footer-section */
+
+footer {
+    background: #343d68;
+    position: relative;
+    padding: 5rem;
+  }
+  
+  .footerFadedText {
+    font-size: 5em;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    color: #535c87;
+    user-select: none;
+  }
+  
+  .footerContainer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 1rem;
+    padding: 1.2rem;
+  }
+  
+  .linkContainer {
+    display: flex;
+    gap: 1.2em;
+  }
+  
+  .linkContainer div a {
+    color: white;
+    text-decoration: none;
+    transition: all 0.6s;
+  }
+  
+  .linkContainer div a:hover{
+    color: #e84949;
+  }
+  
+  .iconContainer{
+    display: flex;
+    gap: 1rem;
+  }
