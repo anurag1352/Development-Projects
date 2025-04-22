@@ -52,3 +52,59 @@ p{
     width: 100%;
     display: block;
 }
+
+[type="radio"]:checked,
+[type="radio"]:not(:checked) {
+  visibility: hidden;
+  position: absolute;
+}
+
+.color-btn:checked + label,
+.color-btn:not(:checked) + label {
+    position: relative;
+    height: 40px;
+    transition: all 200ms linear;
+    border-radius: 4px;
+    width: 40px;
+    overflow: hidden;
+    border: none;
+    cursor: pointer;
+    color: #ffeba7;
+    margin-right: 10px;
+    box-shadow: 0 12px 35px 0px rgba(16, 39, 112, 0.25);
+    z-index: 10;
+    background-position: center;
+    background-size: cover;
+    border: 3px solid transparent;
+}
+
+.color-btn:checked + label {
+    border-color: #434343;
+    transform: scale(1.1);
+}
+
+label.color-1{
+    margin-left: 500px;
+    background-image: url(/Modern-Chair/images/color1.jpg);
+}
+
+label.color-2{
+    background-image: url(/Modern-Chair/images/color2.jpg);
+}
+
+label.color-3{
+    background-image: url(/Modern-Chair/images/color3.jpg);
+}
+
+label.color-4{
+    background-image: url(/Modern-Chair/images/color4.jpg);
+}
+
+label.color-5{
+    background-image: url(/Modern-Chair/images/color5.jpg);
+}
+
+label.color-6{
+    background-image: url(/Modern-Chair/images/color6.jpg);
+}
+
